@@ -1,0 +1,9 @@
+{
+  "name": "shared-tool-icon-generator",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/tool-icon-generator/src",
+  "projectType": "library",
+  "tags": ["scope:shared", "type:tool"],
+  "// targets": "to see all targets run: nx show project shared-tool-icon-generator --web",
+  "targets": {}
+}

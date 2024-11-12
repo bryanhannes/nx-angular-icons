@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-angular-icons/shared-tool-icon-generator": [
+        "libs/shared/tool-icon-generator/src/index.ts"
+      ],
       "@nx-angular-icons/shared-ui-icons": ["libs/shared/ui-icons/src/index.ts"]
     }
   },
