@@ -2,7 +2,10 @@
   "name": "@nx-angular-icons/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "icons:generate": "nx run shared-tool-icon-generator:generate",
+    "icons:generate-all": "nx run shared-tool-icon-generator:generate --all"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.2.0",
