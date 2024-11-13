@@ -1,0 +1,11 @@
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: 'app-icon[<%= selector %>]',
+  standalone: true,
+  template: `<%- svgCode %>`,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class <%= componentName %>Component {
+}

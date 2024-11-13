@@ -1,3 +1,5 @@
-export interface IconGeneratorGeneratorSchema {
-  name: string;
+export interface IconComponentGeneratorSchema {
+  componentName: string;
+  selector: string;
+  iconPath: string;
 }

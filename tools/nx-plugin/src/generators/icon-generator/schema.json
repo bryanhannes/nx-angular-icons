@@ -1,18 +1,36 @@
 {
-  "$schema": "https://json-schema.org/schema",
-  "$id": "IconGenerator",
+  "$schema": "http://json-schema.org/schema",
+  "$id": "IconComponent",
   "title": "",
   "type": "object",
   "properties": {
-    "name": {
+    "selector": {
       "type": "string",
       "description": "",
       "$default": {
         "$source": "argv",
         "index": 0
       },
-      "x-prompt": "What name would you like to use?"
-    }
+      "x-prompt": "What selector would you like to use?"
+    },
+    "iconPath": {
+      "type": "string",
+      "description": "",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "What iconPath would you like to use?"
+    },
+    "componentName": {
+      "type": "string",
+      "description": "",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "What componentName would you like to use?"
+    },
   },
-  "required": ["name"]
+  "required": ["selector", "iconPath", "componentName"]
 }
