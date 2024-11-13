@@ -11,5 +11,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
     />
   </svg> `,
   changeDetection: ChangeDetectionStrategy.OnPush,
+  styleUrls: ['../icon.component.scss'],
 })
 export class IconLeftArrowIconComponent {}
